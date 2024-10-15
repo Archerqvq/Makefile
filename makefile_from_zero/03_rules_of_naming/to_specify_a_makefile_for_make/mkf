@@ -1,0 +1,8 @@
+hello: hello.o
+	g++ hello.o -o hello
+	@echo This is From mkf
+	
+hello.o: hello.cpp
+	g++ -c hello.cpp
+
+
